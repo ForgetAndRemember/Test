@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783FF857255D1574000B11D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF856255D1574000B11D3 /* AppDelegate.m */; };
+		783FF85A255D1574000B11D3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF859255D1574000B11D3 /* SceneDelegate.m */; };
+		783FF85D255D1574000B11D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF85C255D1574000B11D3 /* ViewController.m */; };
+		783FF860255D1574000B11D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783FF85E255D1574000B11D3 /* Main.storyboard */; };
+		783FF862255D1577000B11D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783FF861255D1577000B11D3 /* Assets.xcassets */; };
+		783FF865255D1577000B11D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783FF863255D1577000B11D3 /* LaunchScreen.storyboard */; };
+		783FF868255D1577000B11D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF867255D1577000B11D3 /* main.m */; };
+		783FF877255D16F7000B11D3 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 783FF875255D16F6000B11D3 /* Image.bundle */; };
+		783FF878255D16F7000B11D3 /* PinyinDict.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 783FF876255D16F7000B11D3 /* PinyinDict.bundle */; };
+		783FF882255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF87A255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.m */; };
+		783FF883255D17A2000B11D3 /* WLNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF87E255D17A2000B11D3 /* WLNumberKeyboard.m */; };
+		783FF884255D17A2000B11D3 /* WLASCIIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF880255D17A2000B11D3 /* WLASCIIKeyboard.m */; };
+		783FF885255D17A2000B11D3 /* WLKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF881255D17A2000B11D3 /* WLKeyboardButton.m */; };
+		783FF893255D17A9000B11D3 /* WLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF889255D17A9000B11D3 /* WLColor.m */; };
+		783FF894255D17A9000B11D3 /* WLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF88E255D17A9000B11D3 /* WLImage.m */; };
+		783FF895255D17A9000B11D3 /* WLSourcePathHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF88F255D17A9000B11D3 /* WLSourcePathHandle.m */; };
+		783FF896255D17A9000B11D3 /* WLPinYinHandle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 783FF890255D17A9000B11D3 /* WLPinYinHandle.mm */; };
+		783FF897255D17A9000B11D3 /* WLScaleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF891255D17A9000B11D3 /* WLScaleManager.m */; };
+		783FF898255D17AA000B11D3 /* WLStringText.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF892255D17A9000B11D3 /* WLStringText.m */; };
+		783FF89C255D17B5000B11D3 /* libWLPinYin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 783FF89B255D17B5000B11D3 /* libWLPinYin.a */; };
+		783FF8A1255D17CE000B11D3 /* WLCustomKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF8A0255D17CE000B11D3 /* WLCustomKeyboardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		783FF852255D1574000B11D3 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783FF855255D1574000B11D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		783FF856255D1574000B11D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		783FF858255D1574000B11D3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		783FF859255D1574000B11D3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		783FF85B255D1574000B11D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		783FF85C255D1574000B11D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		783FF85F255D1574000B11D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		783FF861255D1577000B11D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		783FF864255D1577000B11D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		783FF866255D1577000B11D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783FF867255D1577000B11D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		783FF875255D16F6000B11D3 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
+		783FF876255D16F7000B11D3 /* PinyinDict.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PinyinDict.bundle; sourceTree = "<group>"; };
+		783FF87A255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+WLKeyboardResponder.m"; sourceTree = "<group>"; };
+		783FF87B255D17A2000B11D3 /* WLNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNumberKeyboard.h; sourceTree = "<group>"; };
+		783FF87C255D17A2000B11D3 /* WLASCIIKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLASCIIKeyboard.h; sourceTree = "<group>"; };
+		783FF87D255D17A2000B11D3 /* WLKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLKeyboardButton.h; sourceTree = "<group>"; };
+		783FF87E255D17A2000B11D3 /* WLNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLNumberKeyboard.m; sourceTree = "<group>"; };
+		783FF87F255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+WLKeyboardResponder.h"; sourceTree = "<group>"; };
+		783FF880255D17A2000B11D3 /* WLASCIIKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLASCIIKeyboard.m; sourceTree = "<group>"; };
+		783FF881255D17A2000B11D3 /* WLKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLKeyboardButton.m; sourceTree = "<group>"; };
+		783FF887255D17A9000B11D3 /* WLSourcePathHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSourcePathHandle.h; sourceTree = "<group>"; };
+		783FF888255D17A9000B11D3 /* WLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLImage.h; sourceTree = "<group>"; };
+		783FF889255D17A9000B11D3 /* WLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLColor.m; sourceTree = "<group>"; };
+		783FF88A255D17A9000B11D3 /* WLScaleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLScaleManager.h; sourceTree = "<group>"; };
+		783FF88B255D17A9000B11D3 /* WLStringText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLStringText.h; sourceTree = "<group>"; };
+		783FF88C255D17A9000B11D3 /* WLPinYinHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPinYinHandle.h; sourceTree = "<group>"; };
+		783FF88D255D17A9000B11D3 /* WLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLColor.h; sourceTree = "<group>"; };
+		783FF88E255D17A9000B11D3 /* WLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLImage.m; sourceTree = "<group>"; };
+		783FF88F255D17A9000B11D3 /* WLSourcePathHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSourcePathHandle.m; sourceTree = "<group>"; };
+		783FF890255D17A9000B11D3 /* WLPinYinHandle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WLPinYinHandle.mm; sourceTree = "<group>"; };
+		783FF891255D17A9000B11D3 /* WLScaleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLScaleManager.m; sourceTree = "<group>"; };
+		783FF892255D17A9000B11D3 /* WLStringText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLStringText.m; sourceTree = "<group>"; };
+		783FF89A255D17B5000B11D3 /* WLPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPinYin.h; sourceTree = "<group>"; };
+		783FF89B255D17B5000B11D3 /* libWLPinYin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWLPinYin.a; sourceTree = "<group>"; };
+		783FF89D255D17CD000B11D3 /* WLCustomKeyboardDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCustomKeyboardDefine.h; sourceTree = "<group>"; };
+		783FF89E255D17CD000B11D3 /* WLCustomKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCustomKeyboardView.h; sourceTree = "<group>"; };
+		783FF89F255D17CD000B11D3 /* WLCustomKeyboardSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCustomKeyboardSetting.h; sourceTree = "<group>"; };
+		783FF8A0255D17CE000B11D3 /* WLCustomKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCustomKeyboardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783FF84F255D1574000B11D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783FF89C255D17B5000B11D3 /* libWLPinYin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783FF849255D1574000B11D3 = {
+			isa = PBXGroup;
+			children = (
+				783FF854255D1574000B11D3 /* test */,
+				783FF853255D1574000B11D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783FF853255D1574000B11D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783FF852255D1574000B11D3 /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783FF854255D1574000B11D3 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				783FF89D255D17CD000B11D3 /* WLCustomKeyboardDefine.h */,
+				783FF89F255D17CD000B11D3 /* WLCustomKeyboardSetting.h */,
+				783FF89E255D17CD000B11D3 /* WLCustomKeyboardView.h */,
+				783FF8A0255D17CE000B11D3 /* WLCustomKeyboardView.m */,
+				783FF899255D17B5000B11D3 /* Lib */,
+				783FF886255D17A9000B11D3 /* Utils */,
+				783FF879255D17A2000B11D3 /* View */,
+				783FF875255D16F6000B11D3 /* Image.bundle */,
+				783FF876255D16F7000B11D3 /* PinyinDict.bundle */,
+				783FF855255D1574000B11D3 /* AppDelegate.h */,
+				783FF856255D1574000B11D3 /* AppDelegate.m */,
+				783FF858255D1574000B11D3 /* SceneDelegate.h */,
+				783FF859255D1574000B11D3 /* SceneDelegate.m */,
+				783FF85B255D1574000B11D3 /* ViewController.h */,
+				783FF85C255D1574000B11D3 /* ViewController.m */,
+				783FF85E255D1574000B11D3 /* Main.storyboard */,
+				783FF861255D1577000B11D3 /* Assets.xcassets */,
+				783FF863255D1577000B11D3 /* LaunchScreen.storyboard */,
+				783FF866255D1577000B11D3 /* Info.plist */,
+				783FF867255D1577000B11D3 /* main.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		783FF879255D17A2000B11D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				783FF87A255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.m */,
+				783FF87B255D17A2000B11D3 /* WLNumberKeyboard.h */,
+				783FF87C255D17A2000B11D3 /* WLASCIIKeyboard.h */,
+				783FF87D255D17A2000B11D3 /* WLKeyboardButton.h */,
+				783FF87E255D17A2000B11D3 /* WLNumberKeyboard.m */,
+				783FF87F255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.h */,
+				783FF880255D17A2000B11D3 /* WLASCIIKeyboard.m */,
+				783FF881255D17A2000B11D3 /* WLKeyboardButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		783FF886255D17A9000B11D3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				783FF887255D17A9000B11D3 /* WLSourcePathHandle.h */,
+				783FF888255D17A9000B11D3 /* WLImage.h */,
+				783FF889255D17A9000B11D3 /* WLColor.m */,
+				783FF88A255D17A9000B11D3 /* WLScaleManager.h */,
+				783FF88B255D17A9000B11D3 /* WLStringText.h */,
+				783FF88C255D17A9000B11D3 /* WLPinYinHandle.h */,
+				783FF88D255D17A9000B11D3 /* WLColor.h */,
+				783FF88E255D17A9000B11D3 /* WLImage.m */,
+				783FF88F255D17A9000B11D3 /* WLSourcePathHandle.m */,
+				783FF890255D17A9000B11D3 /* WLPinYinHandle.mm */,
+				783FF891255D17A9000B11D3 /* WLScaleManager.m */,
+				783FF892255D17A9000B11D3 /* WLStringText.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		783FF899255D17B5000B11D3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				783FF89A255D17B5000B11D3 /* WLPinYin.h */,
+				783FF89B255D17B5000B11D3 /* libWLPinYin.a */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783FF851255D1574000B11D3 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783FF86B255D1577000B11D3 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				783FF84E255D1574000B11D3 /* Sources */,
+				783FF84F255D1574000B11D3 /* Frameworks */,
+				783FF850255D1574000B11D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 783FF852255D1574000B11D3 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783FF84A255D1574000B11D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "wangxu的air";
+				TargetAttributes = {
+					783FF851255D1574000B11D3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 783FF84D255D1574000B11D3 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 783FF849255D1574000B11D3;
+			productRefGroup = 783FF853255D1574000B11D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783FF851255D1574000B11D3 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783FF850255D1574000B11D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783FF865255D1577000B11D3 /* LaunchScreen.storyboard in Resources */,
+				783FF862255D1577000B11D3 /* Assets.xcassets in Resources */,
+				783FF878255D16F7000B11D3 /* PinyinDict.bundle in Resources */,
+				783FF860255D1574000B11D3 /* Main.storyboard in Resources */,
+				783FF877255D16F7000B11D3 /* Image.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783FF84E255D1574000B11D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783FF894255D17A9000B11D3 /* WLImage.m in Sources */,
+				783FF895255D17A9000B11D3 /* WLSourcePathHandle.m in Sources */,
+				783FF893255D17A9000B11D3 /* WLColor.m in Sources */,
+				783FF85D255D1574000B11D3 /* ViewController.m in Sources */,
+				783FF882255D17A2000B11D3 /* UIResponder+WLKeyboardResponder.m in Sources */,
+				783FF883255D17A2000B11D3 /* WLNumberKeyboard.m in Sources */,
+				783FF857255D1574000B11D3 /* AppDelegate.m in Sources */,
+				783FF896255D17A9000B11D3 /* WLPinYinHandle.mm in Sources */,
+				783FF898255D17AA000B11D3 /* WLStringText.m in Sources */,
+				783FF8A1255D17CE000B11D3 /* WLCustomKeyboardView.m in Sources */,
+				783FF868255D1577000B11D3 /* main.m in Sources */,
+				783FF885255D17A2000B11D3 /* WLKeyboardButton.m in Sources */,
+				783FF884255D17A2000B11D3 /* WLASCIIKeyboard.m in Sources */,
+				783FF85A255D1574000B11D3 /* SceneDelegate.m in Sources */,
+				783FF897255D17A9000B11D3 /* WLScaleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		783FF85E255D1574000B11D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783FF85F255D1574000B11D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		783FF863255D1577000B11D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783FF864255D1577000B11D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		783FF869255D1577000B11D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		783FF86A255D1577000B11D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783FF86C255D1577000B11D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YTB3JUCJS;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+					"$(PROJECT_DIR)/test/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.s.t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783FF86D255D1577000B11D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YTB3JUCJS;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+					"$(PROJECT_DIR)/test/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.s.t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783FF84D255D1574000B11D3 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783FF869255D1577000B11D3 /* Debug */,
+				783FF86A255D1577000B11D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783FF86B255D1577000B11D3 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783FF86C255D1577000B11D3 /* Debug */,
+				783FF86D255D1577000B11D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783FF84A255D1574000B11D3 /* Project object */;
+}
